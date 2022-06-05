@@ -1,0 +1,28 @@
+* {
+  text-align: center;
+}
+body {
+  background-color: #efefe1;
+}
+
+div {
+  margin: auto;
+  margin-top: 5%;
+  background-color: #bbdcb4;
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+#submit {
+  margin-top: 10px;
+}
+
+
+/* img{
+    margin: auto;
+} */
+
+footer{
+    margin-top: 22%;
+}
