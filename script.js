@@ -1,11 +1,48 @@
-function calc() {
-    let texto = document.getElementById("texto") //aq peguei o elemento com id texto
-    let valor = parseInt(texto.value) //aq peguei o valor de texto
-    let h3 = document.getElementsByTagName("h3")[0] // aq peguei o h3[0]
-    var result = "" //aq uma variável vazia pra usar dps
-    for (k = 0; k <= 10; k++) { //aq laço de repetição para repetir 10 vezes
-        result += " " + valor + " x " + k + " = " + k * valor + "<br/>" //aq juntando td
+let Gerar = document.querySelector('#submit')
+
+
+
+
+
+function calcular(){
+    
+    let numero = document.querySelector('#numero').value
+    let resultado = document.querySelector('#p2')
+    
+    if(numero.length == 0){
+        alert('Digite um número válido!')
+    }else{
+        
+        resultado.innerText = ""
+        
+        
+        for(i = 0; i <= 10; i++){
+
+        resultado.innerHTML += `${numero} x ${i} = ${numero * i}<br>`
+
+    
+    
     }
-    h3.innerHTML = result //passando resultado para o h3
+    }
+    
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gerar.addEventListener('click', calcular)
 

@@ -10,19 +10,25 @@
 </head>
 
 <body>
-    <div>
+    <div id="container">
+
         <h1>TABUADA</h1>
-        <p>Digite o número do qual quer a tabuada e dê enter</p>
-        <input type="text" name="" id="texto">
-        <input id="submit" type="submit" onclick="calc()">
-        <h3></h3>
+        <p id="p1">Digite um número e clique no botão para que será gerada a tabuada.</p>
+        <input type="number" id="numero">
+        <input type="submit" id="submit" value="Gerar">
+        <p id="p2">Aguardando número...</p>
+    </div>
+
+    <footer>
+        <div class="container2">
+            <p></p> Feito por João V.
+            <a href="https://github.com/joaovxsantos" target="_blank">
+            <img src="images/github.png" alt="github icon" width="30px"></a>
         </div>
-        <footer>
-            Feito por João V.
-        </footer>
-        <a href="https://github.com/joaovxsantos" target="_blank"><img src="./github.png" alt="github icon" width="30px"></a>
-        <script src="./script.js"></script>
-        
+    </footer>
+
+    <script src="./script.js"></script>
+
 
 </body>
 
