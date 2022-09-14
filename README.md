@@ -1,2 +1,2 @@
 # Tabuada
-Projeto de tabuada feito para testar meus conhecimentos.
+Projeto de tabuada feito utilizando HTML, CSS e JavaScript.
